@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let age = prompt("What is your age?");
+
+        if (age <= 17) {
+            confirm("Do you study at school?");
+        } else if (age > 17 && age < 25) {
+            confirm("Do you study at university?");
+        } else if (age >= 25 && age < 60) {
+            confirm("Do you have a job?");
+        } else {
+            confirm("What are you doing?");
+        }
+    </script>
+    <H1>
+        Типи тестування</H1>
+    <p>Визначають 4 типи тестування (Testing levels) <b>програмного забезпечення:</b></p>
+    <div class="container">
+        <ol class="pyramida_list">
+            <li>Модульне</li>
+            <li>Інтеграційне</li>
+            <li>Системне</li>
+            <li>Приймальне</li>
+        </ol>
+    </div><img class="foto" src="foto_piramida.png" alt="Test Pyramid" title="Test Pyramid">
+</body>
+
+</html>
